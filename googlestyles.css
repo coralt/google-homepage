@@ -9,20 +9,39 @@ body {
     height: 50%;
 }
 
-.container{
-    display: flex;
-    align-content: center;
-    flex-direction: column;
+.container{ 
+    display: flex; /* define parent flex container class */
+    align-content: center; /* align content to center */
+    flex-direction: column; /* establishes vertical main axis */
+}
+
+.logo-img {
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
+    padding-bottom: 30px;
+    margin: auto;
 }
 
 .search-bar {
-    display: flex;
     border-radius: 24px;
     height: 44px;
     box-shadow: none;
     border: 1px solid #dfe1e5;
     width: 582px;
+    padding-top: 5px;
     margin: auto;
+}
+
+.button {
+    margin: auto;
+    height: 36px;
+    border-radius: 4px;
+}
+
+#search {
+    background-color: #1a73e8;
+    color: white;
 }
 
 ul {
@@ -36,20 +55,6 @@ li{
     padding-left: 15px;
 }
 
-.logo-img {
-    height: 92px;
-    width: 272px;
-    padding-top: 109px;
-    margin: auto;
-}
-
 .nav-bar {
     padding: 15px; 
-}
-
-.footer {
-    position: absolute;
-    bottom: 1em;
-    background: lightgrey;
-    height: 35px;
 }

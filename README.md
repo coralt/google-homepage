@@ -4,4 +4,5 @@ Skills learned:
 
 1. divs are helpful when sectioning out a page
 2. how to use classes with CSS
-3. 
+3. introduction to flexbox
+4. used an ID 
