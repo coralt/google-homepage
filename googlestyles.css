@@ -1,0 +1,42 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    opacity: 0.75px;
+}
+
+.main-search {
+    text-align: center;
+    height: 50%;
+}
+
+.search-bar {
+    height: 34px;
+}
+
+ul {
+    list-style-type: none; /* removes the bullet points */
+    margin: 0; /* removes the default browser styles */
+    padding: 0; 
+    background-color: lightcyan;
+  }
+
+  li{
+      display: inline;
+      padding-left: 15px;
+  }
+
+.logo-img {
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
+
+}
+
+.nav-bar {
+    padding: 15px; 
+}
+
+.footer-style {
+    position: absolute;
+    bottom: 1em;
+}
