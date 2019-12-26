@@ -17,7 +17,6 @@ ul {
     list-style-type: none; /* removes the bullet points */
     margin: 0; /* removes the default browser styles */
     padding: 0; 
-    background-color: lightcyan;
   }
 
   li{
@@ -39,4 +38,5 @@ ul {
 .footer-style {
     position: absolute;
     bottom: 1em;
+    background: lightgrey;
 }
