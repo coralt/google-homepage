@@ -18,24 +18,17 @@
             </div>
         </div>
 
-        <div class="main-search">
-        <!--Below the nav bar-->   
+     <div class="main-search container"> <!--parent flex container-->  
         <!--The Google logo-->
         <img class ="logo-img" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="The Google logo">
         
         <!--The search bar form with a fake submission-->
         <form action="somescript.php" method="POST">
-            <input class="search-bar" name="search-term" value="search">
+            <input class="container search-bar" name="search-term" value="">
+            <input id="search" class="button" type="button" name="search-buttom" value="Google Search">
+            <input class="button" type="button" name="lucky-buttom" value="I'm feeling lucky">
         </form>
-        
+    </div>
 
-        
-        <!--Footer-->
-        <ul class ="footer-style">
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>How Search Works</li>
-        </ul>
-        </div>
     </body>
 </html>
