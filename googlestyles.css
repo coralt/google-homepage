@@ -4,15 +4,16 @@ body {
     opacity: 0.75px;
 }
 
-.main-container {
+.search-flex {
+    display: flex; /* define parent flex container class */
+    align-items: center; /* align content to center */
+    flex-direction: column; /* establishes vertical main axis */
     text-align: center;
-    height: 50%;
 }
 
-.search{ 
-    display: flex; /* define parent flex container class */
-    align-content: center; /* align content to center */
-    flex-direction: column; /* establishes vertical main axis */
+.button-flex{
+    display: flex;
+    align-items: center;
 }
 
 .logo-img {
@@ -34,13 +35,13 @@ body {
 }
 
 .button {
-    margin: auto;
+    margin: 35px 4px 0px 0px;
     height: 36px;
     border-radius: 4px;
     border: 1px solid #f2f2f2;
     color: #5f6368;
     background-color: #f2f2f2;
-    font: 14px Arial, sans-serif ;
+    font: 14px Arial, sans-serif;
 }
 
 ul {
