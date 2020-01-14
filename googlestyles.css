@@ -8,7 +8,7 @@ body {
     display: flex; /* define parent flex container class */
     align-items: center; /* align content to center */
     flex-direction: column; /* establishes vertical main axis */
-    text-align: center;
+    text-align: center; /* aligned the buttons */
 }
 
 .button-flex{
