@@ -1,15 +1,15 @@
 body {
-    font-family: arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 13px;
     opacity: 0.75px;
 }
 
-.main-search {
+.main-container {
     text-align: center;
     height: 50%;
 }
 
-.container{ 
+.search{ 
     display: flex; /* define parent flex container class */
     align-content: center; /* align content to center */
     flex-direction: column; /* establishes vertical main axis */
@@ -37,11 +37,10 @@ body {
     margin: auto;
     height: 36px;
     border-radius: 4px;
-}
-
-#search {
-    background-color: #1a73e8;
-    color: white;
+    border: 1px solid #f2f2f2;
+    color: #5f6368;
+    background-color: #f2f2f2;
+    font: 14px Arial, sans-serif ;
 }
 
 ul {
