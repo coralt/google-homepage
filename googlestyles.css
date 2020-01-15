@@ -45,8 +45,8 @@ body {
 }
 
 ul {
-    list-style-type: none; /* removes the bullet points */
-    margin: 0; /* removes the default browser styles */
+    list-style-type: none; /* removes bullet points */
+    margin: 0; /* removes default browser styles */
     padding: 0; 
   }
 
